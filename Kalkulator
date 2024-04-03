@@ -1,0 +1,48 @@
+print("")
+print("Kalkulator Sederhana Oleh : Hansen - 9.2.")
+print("----------------------------------------")
+print("")
+print("Pilih metode operasi perhitungan")
+print("Perkalian (1)")
+print("Pembagian (2)")
+print("penjumlahan (3 ")
+print("Pengurangan (4)")
+print("")
+operasi = str(input("Input Pilihan ? ( 1 / 2 / 3 / 4 ):"))
+print ("")
+if (operasi) == "1":
+    print("Kamu memilih perkalian")
+    a = float(input("masukkan angka pertama : "))
+    print (" Angka pertama:",a)
+    b = float(input("Masukkan angka kedua: "))
+    print(" Angka kedua :", b)
+    print("Hasil perkalian:",a,"*",b,"=", a*b)
+    
+elif(operasi) == "2":
+    print("Kamu memilih pembagian")
+    A = float(input("masukkan angka pertama Sebagai pembagi : "))
+    print(" Angka pertama:",A)
+    B = float(input("Masukkan angka kedua sebagai yang dibagi :"))
+    print(" Angka kedua :", B)
+    print("Hasil Pembagian:",A/B)
+    
+elif(operasi) == "3":
+    print("Kamu memilih penjumlahan")
+    A = float(input("masukkan angka pertama: "))
+    print(" Angka pertama:",A)
+    B = float(input("Masukkan angka kedua:"))
+    print(" Angka kedua :", B)
+    print("Hasil Penjumlahan:",A+B)
+
+elif(operasi) == "4":
+    print("Kamu memilih Pengurangan")
+    A = float(input("masukkan angka pertama: "))
+    print(" Angka pertama:",A)
+    B = float(input("Masukkan angka kedua:"))
+    print(" Angka kedua :", B)
+    print("Hasil Pengurangan:",A-B)
+
+else :
+    print("Masih dalam tahap pengembangan") 
+    print("Mohon tunggu perubahan selanjutnya")
+    
